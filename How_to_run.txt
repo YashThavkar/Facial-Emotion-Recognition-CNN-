@@ -1,0 +1,15 @@
+## How to run: 
+
+1. flask_app.py
+
+Command line: python emotion_server.py path/to/your/model.h5
+Interactive: Run script and enter model path when prompted
+Access: Open http://localhost:5000 in your browser
+
+2.  python .\flask_app.py .\models\model_E500_weights.h5.keras 
+
+python .\flask_app.py .\models\model_E200_weights.h5.keras
+
+python .\flask_app.py .\models\model_E100_weights.h5.keras
+
+python .\flask_app.py .\models\model_Balanced_100_weights.h5.keras
