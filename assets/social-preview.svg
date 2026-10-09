@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="400">
+      <stop stop-color="#2e1065"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56">
+      <stop stop-color="#e879f9"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="24" fill="url(#bg)"/>
+  <g transform="translate(248,88) scale(2.25)">
+    <circle cx="32" cy="32" r="30" fill="url(#g)"/>
+    <circle cx="22" cy="28" r="3.5" fill="#fff"/>
+    <circle cx="42" cy="28" r="3.5" fill="#fff"/>
+    <path d="M20 40c4 8 20 8 24 0" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <text x="48" y="340" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">Emotion</text>
+  <text x="230" y="340" fill="#e879f9" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="600">Facial recognition.</text>
+</svg>
